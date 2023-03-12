@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+} 
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(9, 232, 240), rgb(9, 204, 155));
+}
+
+/* .outer-box{
+    padding: 20px 40px;
+} */
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px) ;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgb(46, 5, 247);
+    z-index: 1;
+}
+
+.signup h1 {
+    font-size: 2.5rem;
+    color: rgb(63, 22, 22);
+}
+
+.signup p {
+    font-size: 0.8rem;
+    color: rgb(104, 41, 41);
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+.signup-body p {
+    margin: 10px 0;
+}
+.signup p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.signup-body p input[type="submit"]{
+    background-color: rgb(135, 135, 228);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color:rgb(20, 20, 141) ;
+}
+
+.signup-footer{
+    color: black;
+    text-align: center;
+}
+.signup-footer p a {
+    color: rgb(135, 135, 228);
+}
+.signup-footer p a:hover{
+    color: blue;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    /* background: linear-gradient(to top right rgb(122, 95, 95) aqua); */
+    position: absolute;
+    background: linear-gradient(to top right, #ffffff33, #ffffff);
+}
+
+.c1 {
+    top: 50px;
+    left: 20px;
+}
+
+.c2 {
+    bottom: 450px;
+    right: 20px;
+}
+.c3{
+    top: 300px;
+    left: 100px;
+}
+.c4{
+    bottom: 290px;
+    right: 250px;
+}
